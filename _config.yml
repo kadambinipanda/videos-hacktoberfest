@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle:
-description:
+title: videos-hacktoberfest
+subtitle: The Hacktoberfest video project
+description: Want to make your first pull request? This repo is a freindly place to learn about GitHub and earn your shirt.
 keywords:
-author: John Doe
+author: evanwaltersdev
 language: en
 timezone:
 
@@ -73,9 +73,14 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: book
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type:
+
+home_page: home/index.md # filename under /source/_posts/
+menu_page: menu.md # filename under /source/_posts/
+
+favicon_url: favicon.ico
